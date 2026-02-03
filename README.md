@@ -32,6 +32,7 @@ This example was heavily based on [this](https://spring.io/blog/2024/10/22/lever
 > The Spring Boot Maven plugin is configured with `--enable-native-access=ALL-UNNAMED` so Netty’s native DNS resolver (used on macOS) can load without the Java 21+ restricted-method warning. If you run the app with `java -jar` or from an IDE, add that JVM argument so the warning does not appear.
 
 ## References
-- [GGUF docs](https://huggingface.co/docs/hub/gguf)
-- [Spring AI Ollama Chat](https://docs.spring.io/spring-ai/reference/2.0/api/chat/ollama-chat.html)
-- [Spring AI Ollama Embedding](https://docs.spring.io/spring-ai/reference/2.0/api/embeddings/ollama-embeddings.html)
+- [Hugging Face GGUF docs](https://huggingface.co/docs/hub/gguf)
+- [Spring AI Docs](https://docs.spring.io/spring-ai/reference/2.0/index.html):
+  - [Spring AI Ollama Chat](https://docs.spring.io/spring-ai/reference/2.0/api/chat/ollama-chat.html)
+  - [Spring AI Ollama Embedding](https://docs.spring.io/spring-ai/reference/2.0/api/embeddings/ollama-embeddings.html)
